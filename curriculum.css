@@ -1,0 +1,118 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(64, 64, 121);
+}
+#name-container{
+    margin-left: 30px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+#name{
+    font-size: 50 px;
+    font-style: bold;
+    color: wheat;
+}
+
+#nombregrado{
+    color: wheat;
+
+}
+
+#menu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: wheat;
+}
+
+.menusuperior{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 40px;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(196, 187, 187)
+}
+
+#izquierda{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-right: 20px;
+    margin-left: 30px;
+    background-color:rgb(182, 154, 172);
+};
+#fotoperfil{
+    width: 250px;
+    height:250px;
+    border-radius:160px;
+    border:10px solid rgb(45, 3, 61);
+    margin-bottom: 20px;
+};
+
+#links{
+    margin-top: 10px;
+
+}
+
+.textofotolinks{
+    padding-top: 10px;
+    
+    font-size: 20px;
+    font-style: bold;
+}
+
+.textos {
+    text-align: justify;
+}
+
+#derecha{
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.secciones12{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-style: b;
+    font-size: 40px;
+}
+
+
+.estudios{
+    font-style: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.año{
+    font-size: 15px;
+}
+
+
+
+
+
+#bottompart{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(196, 187, 187)
+}
