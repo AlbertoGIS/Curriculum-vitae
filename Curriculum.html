@@ -18,13 +18,13 @@
         </div>
 
         <div id="menu-container">
-            <p class="menusuperior">Home</p>
-            <p class="menusuperior">Resume</p>
-            <p class="menusuperior">Contact</p>
+            <p class="menusuperior"><a href="#home" class="scroll-link">Inicio</a></p>
+            <p class="menusuperior"><a href="#competencias " class="scroll-link">Competencias</a></p>
+            <p class="menusuperior"> <a href="#contacto" class="scroll-link">Conatcto</a></p>
         </div>
 
     </nav>
-    <div id="home">
+    <div id="home" class="section-primary">
         <div id="izquierda">
             <div id="fotoperfil">
                 <img  src="https://via.placeholder.com/250" alt="foto">
@@ -68,24 +68,29 @@
         <div id="derecha">
             <div class="secciones12">
                 <h1 class="titulo">Sobre mi</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam sequi tempore quis perspiciatis minima
+                <p class="parrafoderecha">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam sequi tempore quis perspiciatis minima
                 assumenda quidem! Necessitatibus explicabo maiores quae repudiandae quam pariatur, vitae quo modi
                 tenetur, exercitationem omnis excepturi.
-                </p>
+                    <span id="dots">...</span>
+                </p> 
+                <p class="parrafoderecha" id="parrafodos" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem atque laudantium ab facere eius earum ex deleniti odit esse! Impedit amet consequuntur non beatae aut iusto. Quod, minus omnis?</p>
+                <a href="#" onclick="showHideInfo()" id="boton">Leer más</a>
             </div>
             <div class="secciones12">
                 <h1 class="titulo">Educación</h1>
                 <div>
-                    <p class="estudios">Bachillerato científico-tecnológico</p>
-                     <p class="año">2014-2016</p>
-                </div>
-                <div>
-                    <p class="estudios">Grado en Ingenería en Tecnologías Ambientales</p>
-                    <p class="año">2016-2021</p>
-                </div>
-                <div>
-                    <p class="estudios">MasterGIS presencial</p>
-                    <p class="año">2021-2022</p>
+                    <div class="parrafoderecha">
+                        <p class="estudios">Bachillerato científico-tecnológico</p>
+                        <p class="año">2014-2016</p>
+                    </div>
+                    <div>
+                        <p class="estudios">Grado en Ingenería en Tecnologías Ambientales</p>
+                        <p class="año">2016-2021</p>
+                    </div>
+                    <div>
+                        <p class="estudios">MasterGIS presencial</p>
+                        <p class="año">2021-2022</p>
+                    </div>
                 </div>
             </div>
             <div id="experiencia">
@@ -96,9 +101,18 @@
     </div>
     
     <div id="bottompart">
-        <h1 class="titulo">Competencias</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, laudantium! Neque eligendi culpa non laudantium laborum inventore reiciendis commodi minus, vel iste nemo vero. Autem expedita exercitationem hic nisi labore!</p>
+        <h1 class="titulo" class="section-primary" id="competencias">Competencias</h1>
+        <p class="parrafoderecha">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, laudantium! Neque eligendi culpa non laudantium laborum inventore reiciendis commodi minus, vel iste nemo vero. Autem expedita exercitationem hic nisi labore!</p>
     </div>
+    <div id="contacto" class="section-primary">
+        <h1 class="titulo">Contacto</h1>
+        <div id="formas">
+            <p>653408208</p>
+            <p>alber.rodriguez2010@gmail.com</p>
+            <p>Print</p>
+        </div>
+    </div>
+    <script src="curriculum.js"></script>
 </body>
 
 </html>

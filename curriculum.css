@@ -37,6 +37,10 @@ body{
   margin-left: 15px;
   margin-right: 15px;
   font-size: 40px;
+  color:  wheat;
+}
+.menusuperior:hover{
+    color: wheat;
 }
 
 #home{
@@ -83,10 +87,17 @@ body{
     padding-top: 50px;
     margin-left: 30px;
 }
+.parrafoderecha{
+    margin-left: 5px;
 
+}
 .secciones12{
     display: flex;
     flex-direction: column;
+}
+
+#parrafodos {
+    display: none;
 }
 
 .titulo{
@@ -112,7 +123,26 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 10px;
-    background-color: rgb(196, 187, 187)
+    background-color: rgb(196, 187, 187);
+    
 }
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: rgb(41, 41, 80);
+
+}
+#formas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: rgb(119, 104, 75)
+}   
