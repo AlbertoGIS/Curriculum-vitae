@@ -51,36 +51,34 @@ body{
     background-color: rgb(196, 187, 187)
 }
 
+#fotoperfil{
+    border-radius: 160px;
+    border: 10px solid rgb(64, 64, 121);
+    margin-bottom: 10px;
+}
+
 #izquierda{
     display: flex;
     flex-direction: column;
+    width: 400px;
     padding: 40px;
     padding-right: 20px;
     margin-left: 30px;
-    background-color:rgb(182, 154, 172);
+    background-color:rgb(182, 154, 172) ;
 };
-#fotoperfil{
-    width: 250px;
-    height:250px;
-    border-radius:160px;
-    border:10px solid rgb(45, 3, 61);
-    margin-bottom: 20px;
-};
-
-#links{
-    margin-top: 10px;
-
-}
 
 .textofotolinks{
+    display: flex;
+    align-items: center;
     padding-top: 10px;
-    
     font-size: 20px;
-    font-style: bold;
+    font-weight: bold;
 }
 
-.textos {
-    text-align: justify;
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #derecha{
@@ -113,6 +111,7 @@ body{
 }
 .año{
     font-size: 15px;
+    padding: 5px;
 }
 
 
@@ -130,12 +129,13 @@ body{
 }
 
 #contacto{
+    background-color: rgb(41, 41, 80) ;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-    background-color: rgb(41, 41, 80);
+   
 
 }
 #formas{
